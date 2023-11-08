@@ -1,0 +1,583 @@
+{
+	"info": {
+		"_postman_id": "33b22b19-81c2-47af-b5cd-5adb6a167e93",
+		"name": "Nex1Music",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "293391"
+	},
+	"item": [
+		{
+			"name": "musics",
+			"item": [
+				{
+					"name": "latest-persian",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "music",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "musicirani",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "latest-foreign",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "music",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "musicforeign",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "14991",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/music-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"music-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "albums",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "music",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "albumirani",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "14887",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/music-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"music-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "videos",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "music",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "videoirani",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "14837",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/music-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"music-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "movies",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "movie",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "movieforeign",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "8698",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/movie-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"movie-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "series",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "movie",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "serialforeign",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "8696",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/movie-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"movie-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "animations",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "movie",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "animationforeign",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "8689",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/movie-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"movie-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "documentaries",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "page_number",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "movie",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "documentaryforeign",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.appmusic.ir/WebService/category.php",
+							"protocol": "https",
+							"host": [
+								"www",
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"category.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "post_id",
+									"value": "8672",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://appmusic.ir/WebService/movie-more.php",
+							"protocol": "https",
+							"host": [
+								"appmusic",
+								"ir"
+							],
+							"path": [
+								"WebService",
+								"movie-more.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
