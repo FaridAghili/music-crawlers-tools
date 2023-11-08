@@ -1,0 +1,16 @@
+{
+  "name": "nex1music-latest-videos",
+  "version": "1.0.0",
+  "description": "Crawl www.nex1music.ir's latest single videos.",
+  "type": "module",
+  "scripts": {
+    "latest": "node CrawlLatest.js"
+  },
+  "author": "Farid Aghili (https://www.faridaghili.ir)",
+  "license": "MIT",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.1.0",
+    "axios": "^0.25.0",
+    "qs": "^6.10.3"
+  }
+}

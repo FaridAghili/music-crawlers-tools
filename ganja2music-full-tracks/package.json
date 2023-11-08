@@ -1,0 +1,19 @@
+{
+  "name": "ganja2music-full-tracks",
+  "version": "1.0.0",
+  "description": "Crawl all of www.ganja2music.com's single tracks.",
+  "type": "module",
+  "scripts": {
+    "full": "node CrawlFull.js"
+  },
+  "author": "Farid Aghili (https://www.faridaghili.ir)",
+  "license": "MIT",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.1.0",
+    "axios": "^0.25.0",
+    "html-entities": "^2.3.2",
+    "jsdom": "^19.0.0",
+    "mysql": "^2.18.1",
+    "striptags": "^3.2.0"
+  }
+}

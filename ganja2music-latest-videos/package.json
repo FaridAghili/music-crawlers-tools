@@ -1,0 +1,18 @@
+{
+  "name": "ganja2music-latest-videos",
+  "version": "1.0.0",
+  "description": "Crawl www.ganja2music.com's latest single videos.",
+  "type": "module",
+  "scripts": {
+    "latest": "node CrawlLatest.js"
+  },
+  "author": "Farid Aghili (https://www.faridaghili.ir)",
+  "license": "MIT",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.1.0",
+    "axios": "^0.25.0",
+    "html-entities": "^2.3.2",
+    "jsdom": "^19.0.0",
+    "striptags": "^3.2.0"
+  }
+}
