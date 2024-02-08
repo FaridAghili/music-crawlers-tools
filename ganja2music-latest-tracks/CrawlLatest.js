@@ -108,7 +108,7 @@ async function processPost(post) {
     const data = await axios.get(remoteTrack.url).then(response => response.data);
     const document = new JSDOM(data).window.document;
 
-    remoteTrack.coverPhoto = document.querySelector('.topin > img').src;
+    remoteTrack.coverPhoto = document.querySelector('.insidercover > img').src;
     if (!remoteTrack.coverPhoto.includes('ganja2music.com')) {
         remoteTrack.coverPhoto = 'https://www.ganja2music.com' + remoteTrack.coverPhoto;
     }
